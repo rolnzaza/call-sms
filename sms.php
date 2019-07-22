@@ -8,7 +8,7 @@ if (!isset($argv[1]) || (isset($argv[2]) && !in_array(strtoupper($argv[2]), ["SM
 } elseif (!isset($argv[2])) {
 	$argv[2] = "SMS";
 }
-$countries = ["MY", "SG", "ID", "TH", "VN", "KH", "PH", "MM"];
+$countries = ["MY", "SG", "ID", "TH", "VN", "KH", "PH", "MM", "MY", "SG", "ID", "TH", "VN", "KH", "PH", "MM", "MY", "SG", "ID", "TH", "VN", "KH", "PH", "MM", "MY", "SG", "ID", "TH", "VN", "KH", "PH", "MM", "MY", "SG", "ID", "TH", "VN", "KH", "PH", "MM", "MY", "SG", "ID", "TH", "VN", "KH", "PH", "MM", "MY", "SG", "ID", "TH", "VN", "KH", "PH", "MM","MY", "SG", "ID", "TH", "VN", "KH", "PH", "MM"];
 shuffle($countries);
 $i = 0;
 foreach ($countries as $countryCode) {
